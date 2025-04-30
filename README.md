@@ -1,0 +1,1 @@
+ # Custom waybar for arch linux
