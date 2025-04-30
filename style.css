@@ -5,13 +5,12 @@
 }
 
 window#waybar {
-    background-color: rgba(63, 63, 63, 0.075);
+    background-color: rgba(19, 56, 136, 0);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
 }
-#pulseaudio,
-#clock,
+
 #workspaces {
     padding: 0px 5px;
     background-color: #242958;
@@ -44,25 +43,18 @@ window#waybar {
     border-radius: 25px;
     min-width: 50px;
 }
-
-#clock {
-    padding: 0px 10px;
-    border: solid #242958;
-    border-width: 2px 5px;
-    background-color: #3679c5;
-    color: #b7e2ff;
-    
-}
+#cpu:hover,#memory:hover,#disk:hover,
 #clock:hover, #pulseaudio:hover {
     background-color:#4a9eff;
     color: #b7e2ff;
 }
-
+#cpu,#memory,#disk,#clock,
 #pulseaudio {
     padding: 0px 10px;
     border: solid #242958;
     border-width: 2px 5px;
     background-color: #3679c5;
+    border-radius: 25px;
     color: #b7e2ff;
 }
 

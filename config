@@ -7,10 +7,16 @@
     
     "modules-left":[
         "clock",
-        "pulseaudio"
+        "keyboard-state",
+        "pulseaudio",
+        "keyboard-state"
     ],
     "modules-center":[
         "hyprland/workspaces"
     ],
-    "modules-right":[]
+    "modules-right":[
+        "cpu",
+        "memory",
+        "disk"
+    ]
 }
