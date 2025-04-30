@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "height": 16,
+    "spacing":5,
+    "margin": 5,
+    "include":["modules.json"],
+    "modules-left":[],
+    "modules-center":[
+        "hyprland/workspaces"
+    ],
+    "modules-right":[],
+
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "active-only":false,
+        "all-outputs":true,
+        "format": "{name}",
+        "persistent-workspaces": {
+            "*":5
+        }
+    }
+}
