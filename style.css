@@ -10,35 +10,58 @@ window#waybar {
     transition-property: background-color;
     transition-duration: .5s;
 }
+#clock,
 #workspaces {
-    background-color: #ebebeb;
+    padding: 0px 5px;
+    background-color: #242958;
+    color: #4a9eff;
+    font-weight: bolder;
     border-radius: 25px;
     opacity: 1;
 }
 #workspaces button {
-    padding: 1px;
-    margin: 1px 2px;
-    background-color: #2892d7;
+    padding: 2px 4px;
+    margin: 2px 4px;
+    background-color: #b7e2ff;
     border-radius: 25px;
-    color: #fde74c;
+    color: #4a9eff;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
     min-width: 24px;
 }
 #workspaces button.active {
-    padding: 1px;
-    margin: 1px;
-    background-color:#232ed1;
+    background-color:#3679c5;
     border-radius: 25px;
-    color: #ff8552;
+    color: #b7e2ff;
     font-weight: bolder;
     font-size:large;
     min-width: 50px;
 }
 #workspaces button:hover {
-    padding: 1px;
-    margin: 1px;
-    background-color:rgb(15, 189, 233);
+    background-color:#4a9eff;
+    color: #b7e2ff;
     border-radius: 25px;
     min-width: 50px;
+}
+
+#clock {
+    padding: 0px 10px;
+    border: solid #242958;
+    border-width: 2px 5px;
+    background-color: #3679c5;
+    color: #b7e2ff;
+    
+}
+#clock:hover {
+    background-color:#4a9eff;
+    color: #b7e2ff;
+}
+
+tooltip {
+    background-color: #3679c5;
+    font-weight: bold;
+    border-color: #3679c5;
+}
+tooltip * {
+    color: #b7e2ff;
 }
