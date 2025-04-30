@@ -14,5 +14,17 @@
         "on-click":"firefox https://calendar.google.com/calendar/u/0/r?pli=1",
         "tooltip":true,
         "tooltip-format":"{:%A %d. %B %Y (Week %W)}"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} | {format_source}",
+        "format-muted":"{volume}%  {format_source}",
+        "format-source": "{volume}% ",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "format-source-muted": "{volume}% ",
+        "on-click" : "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right" : "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+        "on-click-middle" : "pavucontrol"
     }
 }

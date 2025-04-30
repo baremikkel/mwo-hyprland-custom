@@ -1,12 +1,13 @@
 {
     "layer": "top",
     "height": 16,
-    "spacing":5,
+    "spacing":10,
     "margin": 5,
     "include":["modules.json"],
     
     "modules-left":[
-        "clock"
+        "clock",
+        "pulseaudio"
     ],
     "modules-center":[
         "hyprland/workspaces"

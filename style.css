@@ -10,6 +10,7 @@ window#waybar {
     transition-property: background-color;
     transition-duration: .5s;
 }
+#pulseaudio,
 #clock,
 #workspaces {
     padding: 0px 5px;
@@ -52,10 +53,19 @@ window#waybar {
     color: #b7e2ff;
     
 }
-#clock:hover {
+#clock:hover, #pulseaudio:hover {
     background-color:#4a9eff;
     color: #b7e2ff;
 }
+
+#pulseaudio {
+    padding: 0px 10px;
+    border: solid #242958;
+    border-width: 2px 5px;
+    background-color: #3679c5;
+    color: #b7e2ff;
+}
+
 
 tooltip {
     background-color: #3679c5;
