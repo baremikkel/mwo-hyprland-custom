@@ -2,8 +2,8 @@
 cp config ~/.config/waybar/
 cp style.css ~/.config/waybar/
 cp modules.json ~/.config/waybar/
-cp scripts/* ~/.config/waybar//scripts
+cp scripts/* ~/.config/waybar/scripts
 
 killall waybar
-waybar -c ~/.config/waybar/config -s ~/.config/waybar/style.css &
+waybar &
 

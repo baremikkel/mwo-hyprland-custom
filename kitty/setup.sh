@@ -1,0 +1,1 @@
+cp kitty.conf ~/.config/kitty/
