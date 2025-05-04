@@ -29,12 +29,16 @@ window#waybar {
     transition: all 0.3s ease-in-out;
     min-width: 24px;
 }
+
+#workspaces button label {
+    font-size: x-small;
+}
+
 #workspaces button.active {
     background-color:#3679c5;
     border-radius: 25px;
     color: #b7e2ff;
     font-weight: bolder;
-    font-size:large;
     min-width: 50px;
 }
 #workspaces button:hover {
@@ -44,12 +48,12 @@ window#waybar {
     min-width: 50px;
 }
 #cpu:hover,#memory:hover,#disk:hover,
-#clock:hover, #pulseaudio:hover {
+#clock:hover, #pulseaudio:hover, #keyboard-state:hover, #network:hover {
     background-color:#4a9eff;
     color: #b7e2ff;
 }
 #cpu,#memory,#disk,#clock,
-#pulseaudio, #keyboard-state {
+#pulseaudio, #keyboard-state,#network, #custom-weather {
     padding: 0px 10px;
     border: solid #242958;
     border-width: 2px 5px;
@@ -62,7 +66,7 @@ window#waybar {
     min-width: 80px;
 }
 
-#keyboard-state label.locked {
+#keyboard-state label.locked, #network.disconnected {
     color: red;
 }
 

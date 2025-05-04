@@ -8,12 +8,14 @@
     "modules-left":[
         "clock",
         "pulseaudio",
-        "keyboard-state"
+        "custom/weather"
     ],
     "modules-center":[
         "hyprland/workspaces"
     ],
     "modules-right":[
+        "network",
+        "battery",
         "cpu",
         "memory",
         "disk"
