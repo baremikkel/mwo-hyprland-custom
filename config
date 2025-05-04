@@ -6,6 +6,7 @@
     "include":["modules.json"],
     
     "modules-left":[
+        "custom/appbar",
         "clock",
         "pulseaudio",
         "custom/weather"

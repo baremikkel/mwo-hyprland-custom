@@ -91,5 +91,10 @@
         "format": "{}",
         "tooltip": true,
         "interval": 3600
+    },
+    "custom/appbar": {
+        "format": "Apps",
+        "on-click": "rofi -show"
+
     }
 }

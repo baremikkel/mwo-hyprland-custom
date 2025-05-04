@@ -48,18 +48,19 @@ window#waybar {
     min-width: 50px;
 }
 #cpu:hover,#memory:hover,#disk:hover,
-#clock:hover, #pulseaudio:hover, #keyboard-state:hover, #network:hover {
+#clock:hover, #pulseaudio:hover, #keyboard-state:hover, #network:hover, #custom-weather:hover, #custom-appbar:hover {
     background-color:#4a9eff;
     color: #b7e2ff;
 }
 #cpu,#memory,#disk,#clock,
-#pulseaudio, #keyboard-state,#network, #custom-weather {
+#pulseaudio, #keyboard-state,#network, #custom-weather, #custom-appbar {
     padding: 0px 10px;
     border: solid #242958;
     border-width: 2px 5px;
     background-color: #3679c5;
     border-radius: 25px;
     color: #b7e2ff;
+    font-weight: bold;
 }
 
 #memory {
