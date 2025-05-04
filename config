@@ -7,7 +7,6 @@
     
     "modules-left":[
         "clock",
-        "keyboard-state",
         "pulseaudio",
         "keyboard-state"
     ],

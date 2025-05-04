@@ -49,7 +49,7 @@ window#waybar {
     color: #b7e2ff;
 }
 #cpu,#memory,#disk,#clock,
-#pulseaudio {
+#pulseaudio, #keyboard-state {
     padding: 0px 10px;
     border: solid #242958;
     border-width: 2px 5px;
@@ -58,6 +58,13 @@ window#waybar {
     color: #b7e2ff;
 }
 
+#memory {
+    min-width: 80px;
+}
+
+#keyboard-state label.locked {
+    color: red;
+}
 
 tooltip {
     background-color: #3679c5;
