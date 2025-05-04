@@ -96,5 +96,13 @@
         "format": "Apps",
         "on-click": "rofi -show"
 
+    },
+    "custom/powerbutton": {
+        "format": "",
+        "on-click": "systemctl poweroff",
+        "on-click-right": "systemctl reboot",
+        "on-click-middle": "hyprctl dispatch exit",
+        "tooltip":false
+
     }
 }

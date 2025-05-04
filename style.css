@@ -47,13 +47,13 @@ window#waybar {
     border-radius: 25px;
     min-width: 50px;
 }
-#cpu:hover,#memory:hover,#disk:hover,
+#cpu:hover,#memory:hover,#disk:hover, #custom-powerbutton,
 #clock:hover, #pulseaudio:hover, #keyboard-state:hover, #network:hover, #custom-weather:hover, #custom-appbar:hover {
     background-color:#4a9eff;
     color: #b7e2ff;
 }
 #cpu,#memory,#disk,#clock,
-#pulseaudio, #keyboard-state,#network, #custom-weather, #custom-appbar {
+#pulseaudio, #keyboard-state,#network, #custom-weather, #custom-appbar, #custom-powerbutton {
     padding: 0px 10px;
     border: solid #242958;
     border-width: 2px 5px;
