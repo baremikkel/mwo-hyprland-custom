@@ -1,0 +1,1 @@
+cp *.conf ~/.config/hypr/
