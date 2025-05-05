@@ -9,7 +9,8 @@
         "custom/appbar",
         "clock",
         "pulseaudio",
-        "custom/weather"
+        "custom/weather",
+        "custom/screentype"
     ],
     "modules-center":[
         "hyprland/workspaces"

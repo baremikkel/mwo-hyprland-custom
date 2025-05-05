@@ -105,5 +105,11 @@
         "tooltip":true,
         "tooltip-format": "left-click: \rmiddle-click: \rright-click: "
 
+    },
+    "custom/screentype": {
+        "exec": "scripts/get_monitor_mode.sh",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true
     }
 }
